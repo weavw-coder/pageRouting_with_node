@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to right, rgb(255, 152, 152), rgb(255, 255, 148));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1D3684;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.navbar a:hover {
+    color: deepskyblue;
+}
